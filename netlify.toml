@@ -15,3 +15,14 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "My New Hugo i18n Site"
+    languageName = "English"
+    weight = 1
+  [languages.ru]
+    title = "Мой сайт"
+    languageName = "Russian"
+    weight = 2

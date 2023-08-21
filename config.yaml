@@ -1,6 +1,6 @@
 baseURL: /
 theme: hugo-apero
-languageCode: en
+languageCode: ru
 title: Hugo Apéro
 author: Alison Hill
 copyright: ''
@@ -41,6 +41,7 @@ params:
     - blog
     - project
     - talk
+    - page
   math:
     renderer: katex
   navallcaps: yes
@@ -123,6 +124,10 @@ menu:
       title: Element Page
       url: /elements/
       weight: 6
+    - name: Page
+      title: Page
+      url: /page/
+      weight: 7
 privacy:
   disqus:
     disable: no
